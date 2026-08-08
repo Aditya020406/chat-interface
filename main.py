@@ -11,7 +11,7 @@ st.title("⭐ Star — Personal Assistant")
 st.caption("Online & fully operational, Boss.")
 
 # Initialize OpenAI client
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY", "sk-proj-...your-real-key-here..."))
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # Tool definitions
 def get_workspace_status():
